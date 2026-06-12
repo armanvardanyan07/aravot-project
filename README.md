@@ -16,6 +16,8 @@ aravot-project/
   data/
     train.csv
     test.csv
+  notebooks/
+    aravot_training.ipynb
   src/
     parser.py
     bot.py
@@ -97,6 +99,14 @@ Useful options:
 ## Train Model
 
 The repository does not include a trained model file.
+
+You can train the model with:
+
+```text
+notebooks/aravot_training.ipynb
+```
+
+The notebook loads the dataset, trains the classifier, checks the result and saves `model.pkl`.
 
 Example training code:
 
